@@ -6,3 +6,7 @@ age_in_years = current_year - birth_year
 age_in_days = age_in_years * 365
 
 print(f"You are approximately {age_in_days} days old!")
+
+# Output :
+# Enter your birth year: 1997
+# You are approximately 9855 days old!
