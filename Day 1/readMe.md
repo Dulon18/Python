@@ -1,3 +1,11 @@
+# Install Python
+
+https://www.python.org/downloads/
+
+# Install VS Code
+
+https://code.visualstudio.com/download
+
 # Variables and Data Types in Python
 
 What is a Variable?
