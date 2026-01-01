@@ -150,15 +150,15 @@ def main():
         elif choice == '6':
             sort_tasks(tasks)
         elif choice == '7':
-            confirm = input("\n⚠️  Clear all tasks? (yes/no): ")
+            confirm = input("\n  Clear all tasks? (yes/no): ")
             if confirm.lower() == 'yes':
                 tasks.clear()
                 print("✓ All tasks cleared!")
             else:
                 print("✗ Operation cancelled")
         elif choice == '8':
-            print("\n👋 Thank you for using To-Do List Manager!")
-            print("Stay productive! 🚀")
+            print("\n Thank you for using To-Do List Manager!")
+            print("Stay productive! ")
             break
         else:
             print("\n✗ Invalid choice! Please try again.")
