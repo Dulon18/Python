@@ -1,8 +1,33 @@
 
 # Practice Project: Phone Book Application
 # Build a comprehensive phone book using dictionaries.
-
 # Phone Book Application
+'''
+Phone Book Application - Quick Guide
+How It Works
+This is a command-line phone book application that lets you manage contacts using a simple menu system.
+Main Features:
+
+Add Contact - Store name, phone, email, and category (Family/Friend/Work)
+Search Contact - Find contacts by name
+Update Contact - Modify existing contact details
+Delete Contact - Remove contacts with confirmation
+View All - See complete contact list in table format
+View by Category - Filter contacts by Family/Friend/Work
+Statistics - View contact counts and category breakdown
+Export - Print all contacts in formatted text
+Remove Duplicates - Find and delete contacts with same phone numbers
+Exit - Close the application
+
+How to Use:
+
+Run the program
+Choose an option (1-10) from the menu
+Follow the prompts to enter information
+Contacts are stored in memory during the session
+All data is organized using Python dictionaries
+
+'''
 
 def display_menu():
     """Display main menu"""
