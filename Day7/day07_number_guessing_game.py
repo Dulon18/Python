@@ -143,9 +143,9 @@ def play_game(difficulty, stats):
         if difference <= 5:
             print("You're very close!")
         elif difference <= 10:
-            print("🌡️  Getting warm...")
+            print(" Getting warm...")
         elif difference <= 20:
-            print("❄️  Getting cold...")
+            print(" Getting cold...")
     
     # Out of attempts - LOST
     print("\n" + "-" * 20)
@@ -200,7 +200,7 @@ def view_statistics(stats):
 def show_instructions():
     """Display game instructions"""
     print("\n" + "=" * 60)
-    print("📖 HOW TO PLAY")
+    print("HOW TO PLAY")
     print("=" * 60)
     print("\n1. Select your difficulty level:")
     print("   - Easy: Numbers 1-50, 10 attempts")
