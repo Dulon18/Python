@@ -112,9 +112,9 @@ def play_game(difficulty, stats):
             # WON!
             score = calculate_score(attempts_used, difficulty["attempts"])
             
-            print("\n" + "🎉" * 20)
-            print("🎊 CONGRATULATIONS! YOU WON! 🎊")
-            print("🎉" * 20)
+            print("\n" + "-" * 20)
+            print(" CONGRATULATIONS! YOU WON! ")
+            print("-" * 20)
             print(f"\n✓ Correct! The number was {secret_number}")
             print(f"✓ You guessed it in {attempts_used} attempts")
             print(f"✓ Your score: {score} points")
@@ -129,28 +129,28 @@ def play_game(difficulty, stats):
             diff_key = f"best_score_{difficulty['name'].lower()}"
             if diff_key not in stats or score > stats[diff_key]:
                 stats[diff_key] = score
-                print(f"🏆 NEW HIGH SCORE for {difficulty['name']} mode!")
+                print(f"NEW HIGH SCORE for {difficulty['name']} mode!")
             
             return True
         
         elif guess < secret_number:
-            print("📈 Too low! Try a higher number.")
+            print("Too low! Try a higher number.")
         else:
-            print("📉 Too high! Try a lower number.")
+            print("Too high! Try a lower number.")
         
         # Give additional hints based on how close
         difference = abs(guess - secret_number)
         if difference <= 5:
-            print("🔥 You're very close!")
+            print("You're very close!")
         elif difference <= 10:
             print("🌡️  Getting warm...")
         elif difference <= 20:
             print("❄️  Getting cold...")
     
     # Out of attempts - LOST
-    print("\n" + "💔" * 20)
-    print("😢 GAME OVER! YOU LOST!")
-    print("💔" * 20)
+    print("\n" + "-" * 20)
+    print("GAME OVER! YOU LOST!")
+    print("-" * 20)
     print(f"\n✗ The secret number was: {secret_number}")
     print(f"✗ You used all {difficulty['attempts']} attempts")
     print(f"Your guesses: {', '.join(map(str, guess_history))}")
@@ -166,7 +166,7 @@ def play_game(difficulty, stats):
 def view_statistics(stats):
     """Display game statistics"""
     print("\n" + "=" * 60)
-    print("📊 GAME STATISTICS")
+    print("GAME STATISTICS")
     print("=" * 60)
     
     if stats["games_played"] == 0:
@@ -185,7 +185,7 @@ def view_statistics(stats):
     print(f"Average Attempts:      {avg_attempts:.1f}")
     
     # Best scores per difficulty
-    print("\n🏆 HIGH SCORES:")
+    print("\n HIGH SCORES:")
     print("-" * 60)
     
     for difficulty in ["easy", "medium", "hard"]:
@@ -272,10 +272,10 @@ def main():
         elif choice == '5':
             # Exit
             print("\n" + "=" * 60)
-            print("👋 Thanks for playing!")
+            print("Thanks for playing!")
             
             if stats["games_played"] > 0:
-                print("\n📊 FINAL STATISTICS:")
+                print("\n FINAL STATISTICS:")
                 print("-" * 60)
                 print(f"Games Played: {stats['games_played']}")
                 print(f"Games Won: {stats['games_won']}")
