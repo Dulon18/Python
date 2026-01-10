@@ -689,16 +689,6 @@ for i in range(1, 11):
     print(i)  # 1 to 10
 ```
 
-❌ **Unnecessary index usage**
-```python
-# Bad
-for i in range(len(fruits)):
-    print(fruits[i])
-
-# Good
-for fruit in fruits:
-    print(fruit)
-```
 
 ---
 
