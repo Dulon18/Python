@@ -678,17 +678,6 @@ for num in numbers_to_remove:
     numbers.remove(num)
 ```
 
-❌ **Wrong range bounds**
-```python
-# Wrong - doesn't include 10
-for i in range(10):
-    print(i)  # 0 to 9
-
-# Correct - includes 10
-for i in range(1, 11):
-    print(i)  # 1 to 10
-```
-
 
 ---
 
@@ -705,4 +694,4 @@ Tomorrow (Day 9), we'll learn about **while loops** - loops that continue until 
 
 ---
 
-**Loop It Up! 🐍**
+**Loop It Up! **
