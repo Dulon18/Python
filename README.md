@@ -84,11 +84,11 @@ A structured roadmap to learn Python from scratch in 30 days.
 
 ## Week 3: Intermediate Concepts
 
-### Day 15: File Handling
-- Reading and writing text files
-- Working with CSV files
-- File modes and context managers
-- Practice: Create a note-taking app that saves to files
+### Day 15: List Comprehensions
+- Basic list comprehensions
+- Conditional list comprehensions
+- Dictionary and set comprehensions
+- Practice: Refactor loops into comprehensions
 
 ### Day 16: Modules & Packages
 - Importing built-in modules (math, random, datetime)
@@ -96,29 +96,29 @@ A structured roadmap to learn Python from scratch in 30 days.
 - Understanding __name__ == "__main__"
 - Practice: Organize previous code into modules
 
-### Day 17: List Comprehensions
-- Basic list comprehensions
-- Conditional list comprehensions
-- Dictionary and set comprehensions
-- Practice: Refactor loops into comprehensions
-
-### Day 18: Object-Oriented Programming - Part 1
+### Day 17: Object-Oriented Programming - Part 1
 - Classes and objects
 - Attributes and methods
 - The __init__ constructor
 - Practice: Create a Student class with properties
 
-### Day 19: Object-Oriented Programming - Part 2
+### Day 18: Object-Oriented Programming - Part 2
 - Inheritance and polymorphism
 - Encapsulation and private attributes
 - Class methods and static methods
 - Practice: Build a simple game with multiple classes
 
-### Day 20: Working with Libraries
+### Day 19: Working with Libraries
 - Installing packages with pip
 - Introduction to requests (API calls)
 - Introduction to pandas (data manipulation)
 - Practice: Fetch data from a public API
+
+### Day 20:  File Handling
+- Reading and writing text files
+- Working with CSV files
+- File modes and context managers
+- Practice: Create a note-taking app that saves to files
 
 ### Day 21: Review & Mini Project
 - Review Week 3 concepts
